@@ -1,0 +1,5 @@
+* {padding:0;margin:0;list-style:none;box-sizing:border-box;text-align: center;overflow: hidden;}
+body {background-color: #0d1320;font-size: 70px;color: #e2ecfd;font-weight: bold;}
+.dateInfos {font-size: 28vh;margin-top: 50px;}
+.times {font-size: 48vh;line-height: 56vh;}
+.point {position: relative; bottom:3vh;}
