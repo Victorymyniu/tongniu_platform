@@ -1,0 +1,16 @@
+{
+  "id": "2262539",
+  "name": "mytest",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "测试使用",
+  "glyphs": [
+    {
+      "icon_id": "14055532",
+      "name": "安卓",
+      "font_class": "anzhuo",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    }
+  ]
+}

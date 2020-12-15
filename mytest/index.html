@@ -1,0 +1,66 @@
+<!--
+ * @Description: iconfont字体测试
+ * @Version: 1.0
+ * @Autor: Victorymyniu
+ * @Date: 2020-12-15
+ * @LastEditors: Victorymyniu
+ * @LastEditTime: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Myiconfont</title>
+  <!-- <link rel="stylesheet" href="./iconfont/iconfont.css"> -->
+  <style> 
+   /* Unicode 引用 */
+   @font-face {
+    font-family: 'iconfont';
+    src: url('./iconfont/iconfont.eot');
+    src: url('./iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('./iconfont/iconfont.woff2') format('woff2'),
+        url('./iconfont/iconfont.woff') format('woff'),
+        url('./iconfont/iconfont.ttf') format('truetype'),
+        url('./iconfont/iconfont.svg#iconfont') format('svg');
+    }
+    .iconfont {
+      font-family: "iconfont" !important;
+      font-size: 60px;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    /* font-class 引用 */
+    /* .android{
+      font-size: 30px;
+      color:forestgreen
+    } */
+    /* Symbol 引用 */
+    /* .icon {
+      width: 1em;
+      height: 1em;
+      vertical-align: -0.15em;
+      fill: currentColor;
+      overflow: hidden;
+      font-size: 60px;
+    } */
+  </style>
+</head>
+<body>
+  <div>
+    <!-- Unicode 引用 -->
+    <i class="iconfont">&#xe60b;</i>
+
+    <!-- font-class 引用 -->
+    <!-- <span class="android iconfont iconanzhuo"></span> -->
+
+    <!-- Symbol 引用 -->
+    <!-- <svg class="icon" aria-hidden="true">
+      <use xlink:href="#iconanzhuo"></use>
+    </svg> -->
+  </div>
+  <!-- Symbol 引用 -->
+  <!-- <script src="./iconfont/iconfont.js"></script> -->
+</body>
+</html>
